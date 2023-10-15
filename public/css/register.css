@@ -1,0 +1,271 @@
+body {
+    background-image: url("../images/upeu-juliaca.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    color: red;
+    margin: auto 30px;
+}
+
+.contenido_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 30%;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.8));
+}
+
+.col {
+    text-align: center;
+}
+
+.logo {
+    max-width: 30%;
+    height: auto;
+    margin: auto;
+}
+
+.universidad {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin: auto;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    width: 90%;
+    margin: 10px auto;
+    color: white;
+    font-weight: bold;
+}
+
+.form-control::placeholder {
+    color: white;
+    font-weight: bold;
+}
+
+.form-control:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.form-control:valid {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.boton_registrar {
+    background-color: #134b6d;
+    margin: 5px 20px;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+    display: inline-block;
+    width: 90%;
+}
+
+.boton_cancelar {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.boton_salir {
+    background-color: #9a0000;
+    color: white;
+    margin: 5px 20px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+    display: inline-block;
+    width: 90%;
+}
+
+i {
+    margin: auto 20px;
+}
+
+select {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 15px;
+    height: 40px;
+    display: inline-block;
+    width: 60%;
+    margin: 5px auto;
+}
+
+label {
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 17px;
+    display: inline-block;
+    width: 30%;
+    margin: 5px auto;
+}
+
+/* Estilos para resolución Extra Small (XS) - Hasta 576px de ancho */
+@media (max-width: 576px) {
+    body {
+        background-image: url("../images/fondo/fondo_registro.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .container {
+        max-width: 80%;
+        padding: 10px;
+        border: 1px solid white;
+        border-radius: 10px;
+        height: 95vh;
+    }
+
+    .logo {
+        max-width: 50%;
+        height: auto;
+        margin: auto;
+    }
+}
+
+/* Estilos para resolución Small (SM) - De 577px a 768px de ancho */
+@media (min-width: 414px) and (max-width: 896px) {
+    body {
+        background-image: url("../images/fondo/fondo_registro.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .container {
+        max-width: 90%;
+        padding: 20px;
+        border: 2px solid white;
+        border-radius: 20px;
+        width: 50vh;
+        height: 80vh;
+    }
+
+    .logo {
+        max-width: 50%;
+        height: auto;
+        margin: 20px auto;
+    }
+}
+
+/* Estilos para resolución Small (SM) - De 390px a 844px de ancho */
+@media (min-width: 390px) and (max-width: 844px) {
+    body {
+        background-image: url("../images/fondo/fondo_registro.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .container {
+        max-width: 90%;
+        padding: 20px;
+        border: 2px solid white;
+        border-radius: 20px;
+        width: 50vh;
+        height: 80vh;
+    }
+
+    .logo {
+        max-width: 50%;
+        height: auto;
+        margin: 20px auto;
+    }
+}
+
+/* Estilos para resolución Small (SM) - De 360px a 740px de ancho */
+@media (min-width: 360px) and (max-width: 740px) {
+    body {
+        background-image: url("../images/fondo/fondo_registro.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .container {
+        max-width: 90%;
+        padding: 20px;
+        border: 2px solid white;
+        border-radius: 20px;
+        width: 50vh;
+        height: 85vh;
+    }
+
+    .logo {
+        max-width: 50%;
+        height: auto;
+        margin: auto;
+    }
+}
+
+/* Estilos para resolución Medium (MD) - De 769px a 992px de ancho */
+@media (min-width: 769px) and (max-width: 992px) {
+    body {
+        background-image: url("../images/fondo/fondo_registro.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .container {
+        max-width: 70%;
+        padding: 30px;
+        border: 2px solid white;
+        border-radius: 30px;
+        height: 90vh;
+    }
+
+    .logo {
+        max-width: 50%;
+        height: auto;
+        margin: auto;
+    }
+
+    .instituto {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        margin: 30px auto;
+    }
+
+    .form-control {
+        width: 80%;
+        margin: 30px auto;
+        font-size: 25px;
+    }
+
+    .boton_registrar {
+        font-size: 25px;
+    }
+
+    .boton_salir {
+        font-size: 25px;
+    }
+
+    select,
+    label {
+        font-size: 25px;
+    }
+}

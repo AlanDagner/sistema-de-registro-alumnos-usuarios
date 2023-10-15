@@ -1,0 +1,174 @@
+body {
+    background-image: url("../images/upeu-juliaca.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    color: red;
+}
+
+.contenido_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 30%;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.8));
+}
+
+.col {
+    text-align: center;
+}
+
+.logo {
+    max-width: 45%;
+    height: auto;
+    margin: 20px auto;
+}
+
+.universidad {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px auto;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    width: 90%;
+    margin: 20px auto;
+    color: white;
+    font-weight: bold;
+}
+
+.form-control::placeholder {
+    color: white;
+    font-weight: bold;
+}
+
+.form-control:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.form-control:valid {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.boton_inicio {
+    background-color: #134b6d;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+}
+
+i {
+    margin: auto 20px;
+}
+
+.boton_back {
+    color: black;
+    position: absolute;
+    transition: transform 1s;
+}
+.boton_back:hover {
+    transform: scale(1.5);
+}
+
+/* Estilos para resolución Extra Small (XS) - Hasta 576px de ancho */
+@media (max-width: 576px) {
+    body {
+        background-image: url("../images/upeu-juliaca.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .container {
+        max-width: 80%;
+        padding: 10px;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+
+    .logo {
+        max-width: 50%;
+        height: auto;
+        margin: auto;
+    }
+}
+
+/* Estilos para resolución Small (SM) - De 577px a 768px de ancho */
+@media (min-width: 577px) and (max-width: 768px) {
+    body {
+        background-image: url("../images/upeu-juliaca.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 20px;
+        border: 2px solid white;
+        border-radius: 20px;
+        width: 50vh;
+    }
+
+    .logo {
+        max-width: 50%;
+        height: auto;
+        margin: 20px auto;
+    }
+}
+
+/* Estilos para resolución Medium (MD) - De 769px a 992px de ancho */
+@media (min-width: 769px) and (max-width: 992px) {
+    body {
+        background-image: url("../images/upeu-juliaca.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .container {
+        max-width: 70%;
+        padding: 30px;
+        border: 2px solid white;
+        border-radius: 30px;
+    }
+
+    .logo {
+        max-width: 50%;
+        height: auto;
+        margin: 30px auto;
+    }
+
+    .instituto {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        margin: 30px auto;
+    }
+
+    .form-control {
+        width: 80%;
+        margin: 30px auto;
+        font-size: 25px;
+    }
+
+    .boton_inicio {
+        width: 80%;
+        margin: 30px auto;
+        font-size: 25px;
+    }
+}
