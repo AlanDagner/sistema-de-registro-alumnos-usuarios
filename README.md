@@ -2,7 +2,6 @@
 pasos para clonar y levantar el sistema
 ```console
 composer global require laravel/installer
-CD TEMPORAL
 git clone https://github.com/AlanDagner/sistema-de-registro-alumnos-usuarios
 cd sistema-de-registro-alumnos-usuarios
 
